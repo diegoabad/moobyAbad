@@ -1,15 +1,20 @@
 {
-  "name": "moobyabad",
+  "name": "react-native-todo-app",
   "version": "1.0.0",
+  "description": "A todo app built with React Native with learning purposes",
+  "author": "Alfonsina Lizardo",
+  "license": "ISC",
+  "homepage": "https://github.com/Alais29/coderhouse-rn-todo-app#readme",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --tunnel",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
+    "date-fns": "^2.28.0",
     "expo": "~44.0.0",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
